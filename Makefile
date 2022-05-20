@@ -30,7 +30,7 @@ SRC_DIR  = ./src
 
 CPP = g++
 
-CPPFLAGS = -Wall -O3
+CPPFLAGS = -Wall -O3 -Wno-narrowing
 # -I/apps/well/gsl/1.16-gcc4.7.2/include -L/apps/well/gsl/1.16-gcc4.7.2/lib
 
 LIBS = -lgsl -lgslcblas -lblas
